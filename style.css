@@ -1,8 +1,14 @@
-.title-link {
+h1 {
     color: red;
     cursor: pointer;
 }
 
 .hidden {
     display: none;
+}
+
+.text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
